@@ -3,7 +3,7 @@
     <div id="unit" class="container-fluid">
       
         <div class="row" id="initial_body">
-          <div class="container">
+          <div class="container-sm">
             <div class="col-lg-12">
                 <div class="row">
                   <!-- Venue Name -->
@@ -37,8 +37,10 @@
         
     
       <section id="event_section">
+      <div class="cards">
       <div class="row"> 
         <!-- Location input -->
+        
         <div class="col-sm-3">
           <div class="card" style="width: 22rem;">
             <img class="card-img-top" src="../assets/melbourne.jpg" alt="Card image cap">
@@ -94,6 +96,7 @@
           </div>
         </div>
         </div>
+      </div>
       </div>
     </section>
 
@@ -213,8 +216,8 @@ export default {
   background-image: url(../assets/body.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 200px;
-  padding-top: 10px;
+  height: 180px;
+  padding: 40px 30px;
   margin-top: 10px;
   margin-bottom: 30px;
   
@@ -222,7 +225,7 @@ export default {
 
 .container{
   padding-top: 30px;
-  width: 80%;
+  width: 90%;
 }
 
 .fade1-enter-active, .fade1-leave-active {
@@ -237,7 +240,6 @@ export default {
   font-weight: bold;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
-
 
 
 

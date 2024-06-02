@@ -6,16 +6,16 @@
           <h1>function venue</h1>  
       </div>        
   </div>  
-  <div class="row mainproduct">
+  <div class="row mainproduct">    
         <div class="col-5">
-            <img src="../assets/body-2.jpg" alt="Product_Photo" />
+            <img classname='img-fluid' src="../assets/body-2.jpg" alt="Product_Photo" />
         </div>
         <div class="col-7 description">
             <h2 id="tittle2">Our mission is to create the world’s best venue discovery experience.</h2>
             <p id="paragrph1">We love seeing events come to life and are committed to make the process of finding, comparing and booking a venue effortless.</p>
             <router-link to="/venues"><button id="button1" type="button" class="btn btn-primary">Find Venue</button></router-link>
         </div>
-    </div>
+  </div>
   </div>
   
 </template>
@@ -88,4 +88,12 @@ img {
   margin-top: 20px;
 }
 
+@media only screen and (max-width: 1200px) {
+.mainproduct {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+}
 </style>

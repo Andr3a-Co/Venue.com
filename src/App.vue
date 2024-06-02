@@ -12,7 +12,7 @@
       <router-link to="/"><img alt="Venue logo" src="./assets/venue.png"></router-link>
     </div>
     <div class="col-6">
-    <nav>      
+    <nav class="navbar navbar-expand-sm">      
       <router-link to="/venues">Venues</router-link> |
       <router-link to="/pricing">Discover</router-link> |
       <router-link to="/FAQs">FAQs</router-link>
@@ -49,8 +49,9 @@
 }
 
 img {
-  width: 30%;
-  padding: 10px 20px;
+  width: 50%;
+  padding: 30px 20px;
+  margin-left: 0rem;
 }
 
 nav {
@@ -81,6 +82,14 @@ nav a.router-link-exact-active {
   font-weight: bold;
   text-align: center;
   padding-top: 15px;
+}
+
+@media only screen and (max-width: 1200px) {
+.img {
+  width: 100%;
+  height: 100%;
+  padding: 30px 20px;
+  }
 }
 
 
