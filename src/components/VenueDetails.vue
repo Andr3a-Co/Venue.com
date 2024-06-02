@@ -7,7 +7,7 @@
     <div class="card" >
         <div class="row no-gutters">
             <div class="col-sm-5" >
-                <img class="card-img" src="../assets/venuedetails.jpg" alt="photo" style="height: 100%;">
+              <img class='img-fluid' src="../assets/venuedetails.jpg" alt="venue photo" >
             </div>
             <div class="col-sm-7">
                 <div class="card-body">
